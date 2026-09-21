@@ -297,6 +297,22 @@ a { color: inherit; }
 
 /* ---------- Overview page ---------- */
 
+.section-heading {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 4px 0 0;
+  padding-left: 10px;
+  border-left: 4px solid var(--purple);
+}
+
+.overview-heading {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 4px;
+}
+
 .intro-text {
   background: var(--panel-bg);
   border-radius: 8px;
@@ -306,6 +322,11 @@ a { color: inherit; }
 
 .intro-text p { margin: 0 0 12px; }
 .intro-text p:last-child { margin-bottom: 0; }
+
+.overview-signature {
+  font-style: italic;
+  color: var(--text-muted);
+}
 
 .mini-map {
   display: grid;
