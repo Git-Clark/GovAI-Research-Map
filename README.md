@@ -10,12 +10,16 @@ deploys instantly on Vercel.
 - `technical-landscape.html`, `ai-politics.html`, `ai-ideal-governance.html` — the three
   main branches, each with tabs for its sub-groups and numbered subsections
 - `summary.html` — closing synthesis page
+- `credits.html` — attribution and disclaimer, linked from the "Credits" button in the
+  top right corner of every page
 - `css/styles.css` — all styling
 - `js/app.js` — the tab-switching behavior
-- `assets/GovAI-Research-Agenda.pdf` — a bundled copy of the reading. Every "Link"
+- `assets/GovAI-Research-Agenda.pdf` — a bundled copy of the reading. Every arrow
   button jumps straight to the matching page in this file. If you ever rename or
   replace this PDF, keep the filename the same, or update every
   `assets/GovAI-Research-Agenda.pdf#page=N` link in the HTML files to match.
+- `assets/fhi-oxford-logos.png` — the Future of Humanity Institute / Oxford logo shown
+  on the Credits page.
 
 ## Put it on GitHub (no command line needed)
 
